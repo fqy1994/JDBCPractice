@@ -71,7 +71,8 @@ public class BlobTest {
             String sql = "insert into customers(name,email,birth,photo)values(?,?,?,?)";
 
             ps = conn.prepareStatement(sql);
-            ps.setObject(1,"tom");
+            ps.
+                    setObject(1,"tom");
             ps.setObject(2,"ser");
             ps.setObject(3,"1992-09-02");
             FileInputStream is = new FileInputStream(new File("src=http_%2F%2Fi0.hdslb.com%2Fbfs%2Farticle%2F7db50b79b091782c4e86986be03b526ce060ca2f.jpg&refer=http_%2F%2Fi0.hdslb.jpg"));
